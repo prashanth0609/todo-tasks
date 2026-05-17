@@ -1,0 +1,35 @@
+body {
+  background: linear-gradient(to right, #141e30, #243b55);
+  font-family: Arial, sans-serif;
+}
+
+.todo-box {
+  width: 100%;
+  max-width: 450px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 10px !important;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.task-buttons button {
+  margin-left: 8px;
+}
+
+@media (max-width: 576px) {
+  .todo-box {
+    margin: 20px;
+  }
+}
